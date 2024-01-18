@@ -11,7 +11,7 @@ type PromiseType = {
 
 type APIInstanceProps = AxiosInstance & {
   registerInterceptTokenManager: (signOut: SignOut) => () => void;
-};
+}; //teste
 
 const api = axios.create({
   baseURL: "https:SEUIP-de-acordo-com-Metro waiting on exp://Ip:port-da-api", 
